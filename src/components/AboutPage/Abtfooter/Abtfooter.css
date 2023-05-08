@@ -1,0 +1,53 @@
+.footer {
+  background-color: #004E2D;
+}
+.footer h2 {
+  font-size: 60px;
+  color: #fff;
+  font-family: "Distancia bold";
+  line-height: 20px;
+  letter-spacing: 20px;
+}
+.footer p {
+  font-family: "Montserrat";
+  font-weight: bolder;
+  font-size: 16px;
+}
+.footer h4 {
+  font-family: "Distancia bold";
+  font-size: 18px;
+  color: #DBCE8C;
+}
+.footer img {
+  width: 138%;
+}
+.footer .footer-text {
+  padding-top: 120px;
+  margin-left: 170px;
+}
+.footer .copy {
+  padding-top: 70px;
+  font-family: "Distancia regular";
+}
+
+@media (max-width: 575.98px) {
+  .footer img {
+    width: 100% !important;
+  }
+  .footer .footer-text {
+    padding-top: 120px;
+    margin: 0 25px;
+  }
+  h2 {
+    font-size: 22px !important;
+    line-height: 60px !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 768px) {
+  #root > main > footer > div > div.col-lg-4.col-md-12.col-sm-12 > img {
+    width: 95%;
+  }
+  #root > main > footer > div > div.col-lg-8.col-md-12.col-sm-12 > div > h2 {
+    font-size: 20px !important;
+  }
+}/*# sourceMappingURL=Abtfooter.css.map */

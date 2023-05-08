@@ -1,0 +1,192 @@
+.Navbar {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+  position: fixed;
+  width: 100%;
+  padding: 30px 50px;
+  z-index: 999;
+}
+.Navbar .nav-logo {
+  font-weight: 700;
+  font-size: 21px;
+  margin: 15px;
+  color: #fff;
+}
+.Navbar .nav-items a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  position: relative;
+  opacity: 0.9;
+  margin: 15px;
+  font-family: "Distancia regular";
+}
+.Navbar a:hover {
+  opacity: 1;
+}
+.Navbar a::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: #fff;
+  transition: all 0.45s;
+}
+.Navbar a:hover::before {
+  width: 100%;
+}
+.Navbar .nav-toggle {
+  display: none;
+}
+
+@media (max-width: 700px) {
+  .Navbar {
+    padding: 30px 0px;
+  }
+  .Navbar .nav-items {
+    position: absolute;
+    top: 80px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    left: 0;
+    width: 100%;
+    height: 90%;
+    transform: translateX(-100%);
+    transition: all 0.45s;
+    z-index: 999;
+    padding: 30px 0;
+    justify-content: center;
+    align-items: center;
+  }
+  .Navbar .nav-items a {
+    color: #012B18;
+    font-size: 20px;
+  }
+  .Navbar .nav-toggle {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  .Navbar .nav-toggle .bar {
+    position: relative;
+    width: 32px;
+    height: 2px;
+    background-color: #DBCE8C;
+  }
+  .Navbar .nav-toggle .bar::before,
+  .Navbar .bar::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    background: #DBCE8C;
+    border-radius: 2px;
+    transition: all 0.45s ease-in-out;
+  }
+  .Navbar .nav-toggle .bar::before {
+    width: 25px;
+    transform: translateY(-8px);
+    right: 0;
+  }
+  .Navbar .nav-toggle .bar::after {
+    width: 32px;
+    transform: translateY(8px);
+  }
+  .Navbar .nav-toggle.open > .bar {
+    transform: translateX(-40px);
+    background: transparent;
+  }
+  .Navbar .nav-toggle.open > .bar::before {
+    width: 32px;
+    transform: rotate(45deg) translate(26px, -26px);
+  }
+  .Navbar .nav-toggle.open > .bar::after {
+    transform: rotate(-45deg) translate(26px, 26px);
+  }
+  .Navbar > .nav-items.open {
+    transform: translateX(0);
+    height: 245px;
+    z-index: 999;
+  }
+}
+@media (min-width: 768px) and (max-width: 768px) {
+  .Navbar {
+    padding: 30px 0px;
+  }
+  .Navbar .nav-items {
+    position: absolute;
+    top: 80px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    left: 0;
+    width: 100%;
+    height: 90%;
+    transform: translateX(-100%);
+    transition: all 0.45s;
+    z-index: 999;
+    padding: 30px 0;
+    justify-content: center;
+    align-items: center;
+  }
+  .Navbar .nav-items a {
+    color: #012B18;
+    font-size: 20px;
+  }
+  .Navbar .nav-toggle {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  .Navbar .nav-toggle .bar {
+    position: relative;
+    width: 32px;
+    height: 2px;
+    background-color: #DBCE8C;
+  }
+  .Navbar .nav-toggle .bar::before,
+  .Navbar .bar::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    background: #DBCE8C;
+    border-radius: 2px;
+    transition: all 0.45s ease-in-out;
+  }
+  .Navbar .nav-toggle .bar::before {
+    width: 25px;
+    transform: translateY(-8px);
+    right: 0;
+  }
+  .Navbar .nav-toggle .bar::after {
+    width: 32px;
+    transform: translateY(8px);
+  }
+  .Navbar .nav-toggle.open > .bar {
+    transform: translateX(-40px);
+    background: transparent;
+  }
+  .Navbar .nav-toggle.open > .bar::before {
+    width: 32px;
+    transform: rotate(45deg) translate(26px, -26px);
+  }
+  .Navbar .nav-toggle.open > .bar::after {
+    transform: rotate(-45deg) translate(26px, 26px);
+  }
+  .Navbar > .nav-items.open {
+    transform: translateX(0);
+    height: 245px;
+    z-index: 999;
+  }
+}/*# sourceMappingURL=Navbar.css.map */

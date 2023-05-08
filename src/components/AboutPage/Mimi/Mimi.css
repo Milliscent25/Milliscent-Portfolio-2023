@@ -1,0 +1,54 @@
+.abtmimi {
+  margin: 100px;
+}
+.abtmimi h2 {
+  font-size: 50px;
+  color: #fff;
+  font-family: "Distancia bold";
+  line-height: 70px;
+}
+.abtmimi h4 {
+  font-family: "Distancia bold";
+  font-size: 20px;
+  line-height: 31px;
+  color: #DBCE8C;
+  padding: 40px 0 10px 0;
+}
+.abtmimi p {
+  margin-bottom: 60px;
+  font-family: "Montserrat";
+  line-height: 30px;
+  width: 92%;
+}
+.abtmimi .project-2 {
+  margin: 100px 0;
+}
+
+#root > main > section.abtmimi > div > div:nth-child(2) > img {
+  width: 70%;
+  margin-left: 20%;
+}
+
+@media (max-width: 575.98px) {
+  h1 {
+    font-size: 28px;
+  }
+  h2 {
+    font-size: 30px !important;
+    line-height: 60px !important;
+  }
+  h3 {
+    font-size: 21px;
+  }
+  p {
+    width: 100%;
+    font-size: 16px;
+  }
+  .abtmimi {
+    margin: 27px;
+  }
+  #root > main > section.abtmimi > div > div:nth-child(2) > img {
+    width: 100%;
+    margin-left: 0%;
+  }
+}/*# sourceMappingURL=Mimi.css.map */

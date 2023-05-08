@@ -1,0 +1,26 @@
+h2 {
+    font-size: 50px;
+    color: #fff;
+    font-family: 'Distancia bold';
+    line-height: 50px;
+}
+
+h4 {
+    font-family: 'Distancia bold';
+    font-size: 20px;
+    line-height: 31px;
+    color: #DBCE8C;
+    padding: 40px 0 10px 0;
+}
+
+
+.tecstack {
+    margin: 150px auto;
+
+}
+
+@media (max-width: 575.98px) {
+    .stack img {
+        margin: 18px 15px;
+    }
+}

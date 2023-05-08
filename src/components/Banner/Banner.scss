@@ -1,0 +1,122 @@
+// $regular: 'Distancia regular';
+// $bold: 'Distancia bold';
+// $monst-regular: 'Montserrat';
+
+
+h1 {
+    font-family: 'Distancia bold';
+    font-size: 70px;
+    color: #fff;
+    padding: 30px 0;
+}
+
+h3 {
+    font-size: 43px;
+    font-family: 'Distancia regular';
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: row-reverse;
+}
+
+h3::after {
+    content: "";
+    display: block;
+    width: 32%;
+    border: 1px solid#DBCE8C;
+}
+
+p {
+    font-size: 16px;
+    color: #fff;
+    font-family: 'Montserrat';
+    line-height: 30px;
+}
+
+
+.hero {
+    background-image: url(../../Assets/images/hero.png);
+    height: 100vh;
+    background-position: center left;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    .hero-inner {
+        position: absolute;
+        top: 38%;
+        left: 6%;
+    }
+
+    p {
+        width: 45%;
+        margin-top: 20px;
+        margin-bottom: 40px;
+        line-height: 37px;
+        font-size: 25px;
+    }
+
+    .dis-cover {
+        background-image: url(../../Assets/images/Exclude.png);
+        color: #012B18;
+        padding: 16px 185px 25px 30px;
+        font-family: 'Distancia bold';
+        font-size: 16px;
+        text-decoration: none;
+        height: 100%;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: contain;
+
+
+    }
+
+    // .dis-cover:hover{
+    //     background-color: #012B18;
+    //     color:  #fff;
+    //     border: 1px solid #ffffff;
+    // }
+}
+
+@media (max-width: 575.98px) {
+    h1 {
+
+        font-size: 28px;
+
+    }
+
+    h3 {
+        font-size: 21px;
+    }
+
+    p {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .hero {
+        p {
+            width: 98%;
+            margin-top: 20px;
+            margin-bottom: 40px;
+            line-height: 37px;
+            font-size: 16px;
+        }
+
+        .dis-cover {
+            padding: 13px 146px 25px 18px;
+            font-family: "Distancia bold";
+            font-size: 10px;
+        }
+        .hero-inner {
+            position: absolute;
+            top: 28%;
+            left: 6%;}
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 768px){
+    h1 {
+        font-size: 50px!important;}
+}

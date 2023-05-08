@@ -1,0 +1,92 @@
+.portifolio {
+  padding: 0px 100px 50px 100px;
+}
+.portifolio h2 {
+  font-size: 50px;
+  color: #fff;
+  font-family: "Distancia bold";
+  line-height: 50px;
+}
+.portifolio h4 {
+  font-family: "Distancia bold";
+  font-size: 26px;
+  line-height: 31px;
+  color: #DBCE8C;
+  padding: 40px 0 10px 0;
+}
+.portifolio p {
+  margin-bottom: 60px;
+  font-family: "Montserrat";
+  line-height: 30px;
+}
+.portifolio .project-2 {
+  margin: 100px 0;
+}
+.portifolio .dis-cover {
+  background-image: url(../../Assets/images/Exclude.png);
+  color: #012B18;
+  padding: 16px 185px 25px 30px;
+  font-family: "Distancia bold";
+  font-size: 16px;
+  text-decoration: none;
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.portifolio .infor2 {
+  margin: 100px 0;
+}
+
+@media (max-width: 575.98px) {
+  h1 {
+    font-size: 28px;
+  }
+  h3 {
+    font-size: 21px;
+  }
+  p {
+    width: 100%;
+    font-size: 16px;
+  }
+  .portifolio {
+    padding: 80px 30px;
+  }
+  .portifolio h2 {
+    font-size: 25px !important;
+  }
+  .portifolio h4 {
+    font-size: 18px;
+    line-height: 31px;
+    padding: 40px 0 22px 0;
+  }
+  .portifolio .port1 {
+    flex-direction: column-reverse;
+  }
+  .portifolio img {
+    margin-top: 50px;
+  }
+  .portifolio .dis-cover {
+    padding: 13px 146px 25px 18px;
+    font-family: "Distancia bold";
+    font-size: 10px;
+    text-decoration: none;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}
+@media (min-width: 768px) and (max-width: 768px) {
+  .hero p {
+    width: 82%;
+  }
+  .portifolio h2 {
+    font-size: 30px;
+  }
+  .port1 {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  img {
+    margin-top: 90px;
+  }
+}/*# sourceMappingURL=Port.css.map */

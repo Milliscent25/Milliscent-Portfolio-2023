@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'Distancia regular';
+    src: url('./Distancia-Regular.ttf');
+    src: local('./Distancia-Regular'), local('Distancia-Regular'),
+        url('./Distancia-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Distancia bold';
+    src: url('./Distancia-Bold.otf');
+    src: local('./Distancia-Bold'), local('Distancia-Bold'),
+        url('./Distancia-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('./Montserrat-Regular.eot');
+    src: local('./Montserrat Regular'), local('Montserrat-Regular'),
+        url('./Montserrat-Regular.eot?#iefix') format('embedded-opentype'),
+        url('./Montserrat-Regular.woff2') format('woff2'),
+        url('./Montserrat-Regular.woff') format('woff'),
+        url('./Montserrat-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

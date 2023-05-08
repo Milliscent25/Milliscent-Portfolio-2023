@@ -1,0 +1,52 @@
+.about {
+  padding: 150px 90px;
+}
+.about h6 {
+  color: #fff;
+  font-size: 16px;
+  font-family: "Distancia bold";
+  line-height: 19px;
+}
+.about h4 {
+  color: #fff;
+  font-size: 30px;
+  font-family: "Distancia bold";
+  width: 80%;
+  line-height: 40px;
+}
+.about h5 {
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #DBCE8C;
+  font-family: "Distancia bold";
+  padding: 31px 0;
+}
+.about p {
+  font-family: "Montserrat";
+}
+
+@media (max-width: 575.98px) {
+  h1 {
+    font-size: 28px;
+  }
+  h3 {
+    font-size: 21px;
+  }
+  p {
+    width: 100%;
+    font-size: 16px;
+  }
+  .about {
+    padding: 0px 30px;
+  }
+  .about h4 {
+    font-size: 25px;
+    line-height: 45px;
+  }
+  .about .item2 {
+    padding: 20px 10px;
+  }
+  .about img {
+    width: 30%;
+  }
+}/*# sourceMappingURL=Who.css.map */
