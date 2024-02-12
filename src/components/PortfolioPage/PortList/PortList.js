@@ -12,6 +12,9 @@ import './PortList.scss';
 //  import group4 from "../../../Assets/images/Group 4.png"
  import group from "../../../Assets/images/Group.png"
  import group18 from "../../../Assets/images/Group 18.png"
+ import MI5 from "../../../Assets/images/mi5.png"
+ import conwise from "../../../Assets/images/conwise.png"
+
 
 
 
@@ -83,6 +86,51 @@ const PortList = () => {
                     <h4>CALIGRAPH</h4>
                     <p>We are CaliGraph, a public art and creative direction collective. We paint murals in public spaces in urban and rural areas. Our work centres on addressing societal themes guided by the United Nations’s Sustainable Development Goals.</p>
                     <Link to="http://caligraph.co.zw/" className="dis-cover">VIEW SITE
+                    </Link>
+                    </div>
+
+                </Col>
+            </Row> 
+
+            <Row className='infor4'>
+            <Col lg={6} md={12} sm={12}data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine">
+                    <div>
+                    
+                    <h4>MI5 GROUP</h4>
+                    <p>MI5 is a privately owned business working in the industrial & manufacturing space to help clients find and secure sources of supply in Die-Cut Gaskets/Insulation, Specialty Tapes, Reflective Tapes, Plastic Extrusions, Insulated Trims, Metal Fabrications, CNC Turning & Machining, Robotic Assemblies, Composite Panels (Insulated & Waterproof), Vibration/Noise Control, Rubber molding over CNC parts, Powder Coating & E-Coating.</p>
+                    <Link to="https://www.mi5group.co/" className="dis-cover">VIEW SITE </Link>
+                    </div>
+
+                </Col>
+
+                <Col lg={6} md={12} sm={12}>
+                    <div>
+                        <img src={MI5} alt='millicent' className="img-fluid" />
+                    </div>
+
+                </Col>
+
+               
+            </Row>
+            <Row className='infor3 port1'>
+                <Col lg={6} md={12} sm={12}>
+                    <div>
+                        <img src={conwise} alt='millicent' className="img-fluid" />
+                    </div>
+
+                </Col>
+
+                <Col lg={6} md={12} sm={12} data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine">
+                    <div>
+                   
+                    <h4>CONTAINERWISE</h4>
+                    <p>At Containawise we hire and sell Standard Unit 20 Foot and 40 Foot Containers, ranging from offices, accommodation, ablutions, storage and tuck shops.
+                    We have years of experience in container modification and conversions to suite your needs and project.</p>
+                    <Link to="http://containerwise.uncommon-staging.com/" className="dis-cover">VIEW SITE
                     </Link>
                     </div>
 
